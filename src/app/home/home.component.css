@@ -1,0 +1,20 @@
+.page {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to left, #63cbfb, #28dbef, #47e6ce, #8beba2, #cfea7c);
+    display: flex;
+    align-items: center;
+}
+
+.user-pic {
+    margin: 44px 0px 21px 150px;
+    height: 400px;
+    width: 400px;
+    background-image: url('../../assets/rickandmorty.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    background-image: linear-gradient(to left, #63cbfb, #28dbef, #47e6ce, #8beba2, #cfea7c);
+}

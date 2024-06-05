@@ -1,0 +1,16 @@
+<h2>
+    Detalhes do Personagem
+</h2>
+
+<p><b>ID:</b> {{ personagens?.id }}</p>
+<p><b>Nome:</b> {{ personagens?.nome }}</p>
+<p><b>Email: </b>{{ personagens?.email }}</p>
+<p><b>Origem: </b>{{ personagens?.origem }}</p>
+<p><b>Ultima Localização: </b>{{ personagens?.ultLocale }}</p>
+<p><b>Primeira Aparição: </b> {{ personagens?.priAparicao }}</p>
+<p><b>Última Aparição: </b>{{ personagens?.ultAparicao }}</p>
+<p><img src={{personagens?.img}}/></p>
+<br>
+<a class="waves-effect waves-light btn" (click)="editarPersonagem()">Editar</a>
+
+

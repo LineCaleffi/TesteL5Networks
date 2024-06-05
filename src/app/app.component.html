@@ -1,0 +1,16 @@
+<nav *ngIf="mostrarMenu">
+  <div class="nav-wrapper">
+    <a class="brand-logo" routerLink="">Rick and Morty</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="sass.html"><a routerLink="/pesquisar"></a><i class="material-icons">search</i></a></li>
+      <li routerLinkActive="active"><a routerLink="/login">Login</a></li>
+      <li routerLinkActive="active"><a routerLink="/personagens">Personagens</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+
