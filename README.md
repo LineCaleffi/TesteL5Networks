@@ -21,4 +21,4 @@ Abrir o link que aparecerá no terminal (normalmente o link: http://localhost:42
     * 123456
 
 
-Obs: Nunca meci com api rick e morty
+Obs: Nunca mexi com api rick e morty
