@@ -19,3 +19,7 @@ Abrir o link que aparecerá no terminal (normalmente o link: http://localhost:42
     * rickandmorty@rick.com
 * Senha: 
     * 123456
+
+
+
+Obs: nunca mexi com API Rick e Morty
